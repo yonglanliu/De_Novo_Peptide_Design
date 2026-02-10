@@ -1,5 +1,5 @@
 ## Three conda environments need to be set up.
-1. [RFdiffusion]('https://github.com/RosettaCommons/RFdiffusion')
+1. [RFdiffusion](https://github.com/RosettaCommons/RFdiffusion)
 2. ProteinMPNN + FastRelax Environment
 3. af2_binder_design
 
@@ -22,9 +22,9 @@ pip install -e . # install the rfdiffusion module from the root of the repositor
 
 ---
 
-Thanks for **Nathaniel R. Bennett** and [his paper]("https://www.nature.com/articles/s41467-023-38328-5") to for Improving de novo protein binder design with deep learning.
+Thanks for **Nathaniel R. Bennett** and [his paper](https://www.nature.com/articles/s41467-023-38328-5) to for Improving de novo protein binder design with deep learning.
 To setup "proteinmpnn_binder_design" and "af2_binder_design", please use two file <code>./env/proteinmpnn_fastrelax.yml</code> and <code>af2_binder_design.yml</code>
-The environment file is adapted from the following repository: [dl_binder_design]("https://github.com/nrbennet/dl_binder_design"). 
+The environment file is adapted from the following repository: [dl_binder_design](https://github.com/nrbennet/dl_binder_design). 
 
 Only **minor modifications** were made to simplify installation.
 
