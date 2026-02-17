@@ -1,4 +1,4 @@
-# Installation Guide for Cyclic Peptide Design
+# Installation Guide for Peptide Design
 
 This guide will walk you through setting up the complete environment for cyclic peptide design targeting your homotetramer.
 
