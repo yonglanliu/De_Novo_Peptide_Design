@@ -1,14 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=5F91_seq
-#SBATCH --cpus-per-task=8
-#SBATCH --time=100:00:00
-#SBATCH --mem=100g
-#SBATCH --gres=gpu:p100:1,lscratch:100
-#SBATCH -p gpu
 
-# If you are running on HPC and the HPC has already compiled ProteinMPNN
-# module purge
-# module load ProteinMPNN
 conda activate proteinMPNN
 
 folder_with_pdbs="./results/rfdiffusion_pdb"
